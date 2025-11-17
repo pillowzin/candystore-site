@@ -5,10 +5,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
+    font-family: "Quicksand", sans-serif;
 }
 
 body {
+    font-family: "Quicksand", sans-serif;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -19,6 +20,9 @@ body {
     background-attachment: fixed;
 
     animation: fadeIn 0.45s ease;
+}
+h1, h2, .titulo-loja {
+    font-family: "Fredoka One", sans-serif;
 }
 
 /* -------------------------------------
@@ -300,6 +304,7 @@ body {
     h1, h2, h3, p, button {
         letter-spacing: 0.2px; /* leitura mais suave */
     }
+
 
     .btn-vermais {
         margin-top: 15px;
